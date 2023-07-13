@@ -12,6 +12,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
 }, ref) => {
     return (
         <button
+            {...props}
             ref={ref}
             className={cn(
                 `
