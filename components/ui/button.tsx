@@ -13,6 +13,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
     return (
         <button
             {...props}
+            disabled={disabled}
             ref={ref}
             className={cn(
                 `
