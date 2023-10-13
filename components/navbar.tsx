@@ -3,8 +3,6 @@ import Link from "next/link";
 import MainNav from "@/components/main-nav";
 import getCategories from "@/actions/get-categories";
 import NavbarActions from "./navbar-actions";
-import Logo from "./Logo";
-import Image from "next/image";
 
 const Navbar = async () => {
 
